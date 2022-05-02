@@ -1,6 +1,6 @@
 long long int poww(int base,int exp){
     long long int rest=1;
-    while(base>0){
+    while(exp>0){
     if(exp & 1){
         rest*=base;
     }
